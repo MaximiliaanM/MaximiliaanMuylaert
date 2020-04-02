@@ -34,16 +34,6 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
-i.fas,
-i.fab{
-  color: #0078ff;
-}
-
-i.fas:hover,
-i.fab:hover{
-color: white;
-}
-
 .p-r {
   position: relative;
 }
@@ -714,6 +704,10 @@ color: white;
 //--//-->   SERVICES
 ======================================*/
 
+.row{
+  justify-content: center;
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -731,6 +725,18 @@ color: white;
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+}
+
+i.fas,
+i.fab{
+  color: #0078ff;
+}
+
+.service-box:hover 
+i.fas,
+i.fab{
+transition: all 1000ms ease;
+color: white;
 }
 
 .service-box .ico-circle {
@@ -1062,6 +1068,14 @@ color: white;
   color: #fff;
 }
 
+#socialicon{
+  color: #0078ff;
+}
+
+#socialicon:hover{
+  color: white;
+}
+
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -1073,6 +1087,7 @@ color: white;
 .contact-mf {
   margin-top: 4rem;
 }
+
 
 /*======================================
 //--//-->   FOOTER
