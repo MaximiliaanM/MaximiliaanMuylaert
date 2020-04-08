@@ -802,6 +802,11 @@ color: white;
   height: 180px;
 }
 
+.img-fluid-half {
+  max-width: 100%;
+  height: 100%;
+}
+
 .work-img img {
   transition: all 1s;
 }
