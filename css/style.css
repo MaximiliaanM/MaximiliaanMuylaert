@@ -219,6 +219,12 @@ a:hover {
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
+#socialicon{
+  color: #0078ff;
+}
+.ico-circle:hover #socialicon{
+  color: white;
+}
 
 .socials .ico-circle:hover {
   background-color: #0078ff;
