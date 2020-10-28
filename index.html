@@ -232,7 +232,6 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">Maximiliaan Muylaert</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Student @ HoGent,Network Engineer,Scout leader,Snowboarder</span><strong class="text-slider"></strong></p>
         </div>
@@ -257,8 +256,8 @@
                   <div class="col-sm-6 col-md-7">
                     <div class="about-info">
                       <p><span class="title-s">Name: </span> <span>Maximiliaan Muylaert</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Student (Network)</span></p>
-                      <p><span class="title-s">Email: </span> <span>maximiliaan.muylaert@student.hogent.be</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Student</span></p>
+                      <p><span class="title-s">Email: </span> <span>maximiliaan_muylaert@outlook.com</span></p>
                       <p><span class="title-s">Phone: </span> <span>+32470288136</span></p>
                     </div>
                   </div>
@@ -270,9 +269,9 @@
                     <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <span class="fab fa-linux"></span><span> Linux</span> <span class="pull-right">50%</span>
+                  <span class="fab fa-linux"></span><span> Linux</span> <span class="pull-right">65%</span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                   <span class="fab fa-windows"></span><span> Windows Server</span> <span class="pull-right">50%</span>
@@ -422,7 +421,7 @@
           </div>
         </div>
       </section>
-      <!--/ Section education-expierence  End /-->
+
       <!--/ Section Statistics Start /-->
       <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
         <div class="overlay-mf"></div>
@@ -475,7 +474,7 @@
           </div>
         </div>
       </div>
-      <!--/ Section Statistics  End /-->
+
       <!--/ Section Portfolio Start /-->
       <section id="work" class="portfolio-mf sect-pt4 route">
         <div class="container">
@@ -528,7 +527,7 @@
                       <div class="col-sm-8">
                         <h2 class="w-title"><a href="https://www.bakkerij-muylaert.be/" target="_blank">Bakkerij Muylaert</a></h2>
                         <div class="w-more">
-                          <span class="w-ctegory">Website</span> / <span class="w-date">Work in progress</span>
+                          <span class="w-ctegory">Website</span> / <span class="w-date">Work in progress!</span>
                         </div>
                       </div>
                       <div class="col-sm-4">
@@ -574,9 +573,9 @@
                   <div class="work-content">
                     <div class="row">
                       <div class="col-sm-8">
-                        <h2 class="w-title"><a href="https://magicmirror.builders/">Magic mirror</a></h2>
+                        <h2 class="w-title"><a href="https://magicmirror.builders/">MagicMirror<sup>2</sup></a></h2>
                         <div class="w-more">
-                          <span class="w-ctegory">Smart mirror</span> / <span class="w-date">Work in progress</span>
+                          <span class="w-ctegory">Smart mirror</span> / <span class="w-date">October 2020</span>
                         </div>
                       </div>
                       <div class="col-sm-4">
@@ -640,7 +639,7 @@
           </div>
         </div>
       </section>
-      <!--/ Section Portfolio End /-->
+
       <!--/ Section Contact-footer Start /-->
       <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
         style="background-image: url(img/overlay-bg.jpg)">
@@ -712,7 +711,7 @@
                         <ul class="list-ico">
                           <li><span class="fas fa-map-marked-alt"></span>Ninove</li>
                           <li><span class="fas fa-phone"></span>+32470288136</li>
-                          <li><span class="fas fa-at"></span></span>maximiliaan.muylaert@student.hogent.be</li>
+                          <li><span class="fas fa-at"></span></span>maximiliaan_muylaert@outlook.com</li>
                         </ul>
                       </div>
                       <div class="socials">
@@ -739,12 +738,11 @@
                 <div class="copyright-box">
                   <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
                   <div class="credits">
-                    <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
+                    <!--All the links in the footer should remain intact.
+                        You can delete the links only if you purchased the pro version.
+                        Licensing information: https://bootstrapmade.com/license/
+                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                    -->
                     Designed by Maximiliaan Muylaert & <a href="https://bootstrapmade.com/">BootstrapMade</a>
                   </div>
                 </div>
@@ -767,16 +765,9 @@
       <script src="lib/counterup/jquery.counterup.js"></script>
       <script src="lib/typed/typed.min.js"></script>
       <script src="lib/magnific/magnific.js"></script>
-      <script>
-        function calculate_age(dob) {
-          var diff_ms = Date.now() - dob.getTime();
-          var age_dt = new Date(diff_ms);
-          return Math.abs(age_dt.getUTCFullYear() - 1970);
-        }
-        document.getElementById("ageJavascript").innerHTML = calculate_age(new Date(1999, 5, 21));
-      </script>
+
       <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+      <script src="contactform/contactform.js"></script>
 
       <!-- Template Main Javascript File -->
       <script src="js/main.js"></script>
