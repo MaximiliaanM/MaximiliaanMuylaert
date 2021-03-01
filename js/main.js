@@ -128,5 +128,16 @@
       return Math.abs(age_dt.getUTCFullYear() - 1970);
     }
 		document.getElementById("ageJavascript").innerHTML = calculate_age(new Date(1999, 5, 21));
-		
+
+
+	/*--/ Date years of expierence calculator /--*/
+	function calculate_years_expierence(){
+		var d1 = new Date("9/25/2017");   
+		var d2 = new Date();   
+		var diff = d2.getTime() - d1.getTime();   
+		var daydiff = (diff / 31536000000).toFixed(0);
+		return daydiff
+	}
+		document.getElementById("years_expierence").innerHTML = calculate_years_expierence();
+			
 })(jQuery);
